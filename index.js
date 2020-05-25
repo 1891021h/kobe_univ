@@ -13,7 +13,7 @@
       document.write(list);
  }) */
 
- document.write ("JapaScriptの位置");
+ document.write ("JavaScriptの位置");
 
  /* const myHeading = document. querySelector("h1");
  myHeading.textContent = 'りょうちゃだよ'; */
