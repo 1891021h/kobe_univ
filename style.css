@@ -1,9 +1,14 @@
-.big {
-    font-size: 30px;
-}
+/* IDによる指定 */
 #subtitle {
     background-color: pink;
 }
+.note {
+    margin: 20px auto;
+    padding: 3px 3px 10px 20px;
+    width: 90%;
+    box-sizing: border-box;
+}
+
 .box {
     background-color: rgb(206, 206, 206);
     border: 1px solid black;
@@ -13,6 +18,7 @@
     height: 200px;
     box-sizing: border-box;
 }
+
 h1 {
     background-color: silver;
     margin: 0;
@@ -47,7 +53,7 @@ body {
     }
 
     @media screen and (max-width: 500px) {
-        .box {
+        .note {
             width: 80%;
             flex: 1
         }
