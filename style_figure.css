@@ -3,13 +3,13 @@
 }
 
 .figp {
-    background-color: violet;
+   /*  background-color: violet; */
     text-align: center;
 }
 
 @media screen and (max-width: 500px) {
     .fig {
-        width: 80%;
+        width: 96%;
         flex: 1
     }
 }

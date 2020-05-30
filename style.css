@@ -54,7 +54,7 @@ body {
 
     @media screen and (max-width: 500px) {
         .note {
-            width: 80%;
+            width: 96%;
             flex: 1
         }
     }
