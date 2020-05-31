@@ -8,7 +8,7 @@ window.MathJax = {
     }
     },
     CommonHTML: {
-    scale: 95,
+    scale: 100,
     mtextFontInherit: true
     }
     };
