@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style_figure.css">
+    <script type="text/javascript" src="config.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_CHTML"></script>
+
+<body>
+    <body>
+        <header><h1 class="title big">あやちゃんのページです</h1></header>   
+        <div class="foo">
+            <input id=menu type="checkbox" />
+            <label for="menu" class="open">≡MENU</label>
+            <label for="menu" class="back"></label>
+            <nav>
+                <ul>
+                    <li><a href="#">ホーム</a></li>
+                    <li><a href="#">コンテンツ</a></li>
+                    <li><a href="#">お問合せ</a></li>
+                </ul>
+            </nav> 
+            <main>
+                <br>
+                <div class="box">
+                    to:刈屋君
+                    <br><br>
+                    高柳です。この度は家族の急な不幸により予定時間に特訓を実施できなくなり，申し訳ありません。
+                    今日の特訓は，「三角関数」の分野で，センター試験や共通テストで頻出の内容をおさえてもらおうと思います。
+                    担当されるのは神戸大学工学部の中井先生です。解析学，力学などに詳しい先生です。
+                    私のときとは異なる数学の見方や考え方を学びとってほしいと思います。
+                    疑問があれば，標準問題精講の72，73を復習しておいてください。
+                    (2020/06/04 高柳　遼)
+                </div>
+            <article class="note">
+            
+            <h2>基本的な問題</h2>
+            <div class="question">
+                問題：実数\(A\)，\(B\) が等式
+                \[{\sin A}={\sin B}\]
+                をみたすとき，\(A\) を \(B\) の式で表しなさい。
+            </div>
+            <div>
+                解答<br>
+                \(A\) を1つ決めると，\(0\) \(\leqq\) \(B\) \(<\)  \(2 \pi\) の範囲で \(B\) は2つ決まることが単位円からわかると思います。
+                \(0\) \(\leqq\) \(B\) \(<\)  \(2 \pi\) の制限をなくすと，\(2 \pi \) の整数倍も許されるから，\(n\) を整数とすると，
+                \[A= B+2n \pi ,\: \pi - B + 2n \pi \]
+            </div>
+            <h2>少し難しくした問題</h2>
+            <div class ="question">
+                問題：実数\(x\)，\(y\)が等式
+                \[{\sin x}={\cos y}\]
+                をみたすとき，\(x\)を\(y\)の式で表しなさい。
+            </div>
+            <div>
+                解答：まずsinに統一します。
+                \[\sin x = \sin \left(\frac{\pi}{2}-y \right) \]
+                よって，\(n\)を整数とすると，
+                \[x= \begin{cases} \frac{\displaystyle \pi}{\displaystyle 2}-y + 2n \pi \\ \pi - \left( \frac{\displaystyle \pi}{\displaystyle 2}-y \right) + 2n \pi \end{cases}\]
+                となりますから，\(\pi\) の項をまとめて，
+                \[x= \frac{(4n+1) \pi}{2} \pm y \]
+            </div>
+
+            <h2>センター試験の問題に挑戦</h2>
+            <a href=""></a>
+            <hr>
+            <div>
+                参考URL　数学ノート　http://blog.livedoor.jp/suugaku_/archives/51870896.html
+            </div>                  
+            </article>
+
+            
+            </main>
+        </div>
+</body>
+</html>

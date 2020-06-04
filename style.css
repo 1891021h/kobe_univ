@@ -51,6 +51,14 @@ nav {
     display: none;
 }
 
+.question {
+    border: 1px solid black;
+    margin: 20px auto;
+    padding: 3px 3px 10px 20px;
+    width: 80%;
+    box-sizing: border-box;
+}
+
 /* チェックボックス関係 */
 input[type="checkbox"] {
     position: absolute;
